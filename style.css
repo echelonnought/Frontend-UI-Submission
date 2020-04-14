@@ -1,0 +1,171 @@
+<style>
+        body {
+    margin: 0 0;
+    padding: 0;
+    background: #fff;
+    background-repeat: repeat-x;
+    animation: slideleft 20000s infinite linear;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 6px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #bdbdbd;
+  }
+  .header img {
+      margin: 12px 12px;
+  }
+
+  main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 180px;
+    margin-bottom: 200px;
+  }
+
+  h2 {
+      text-align: center;
+  }
+  
+  .form-section {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid #bdbdbd;
+    padding-top: 36px;
+    margin-bottom: 50px;
+  }
+
+  .form-section-info {
+    width: 50%;
+  }
+
+  .form-section-info h3 {
+    width: 80%;
+    margin-block-start: 0px;
+    color: #002239;
+  }
+
+  .form-section-info p {
+    width: 80%;
+    color: #537291;
+  }
+
+  .form-section-inputs {
+    width: 50%;
+  }
+
+  .form-input {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .form-input label {
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #002239;
+
+  }
+
+  .form-input input {
+    width: 473px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid lightseagreen;
+    padding-left: 16px;
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  .form-input select {
+    width: 491px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid lightseagreen;
+    padding-left: 16px;
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  .form-section button {
+    width: 473px;
+    height: 48px;
+    background-color: #537291;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #f5f9fd;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .form-section button:focus, .form-section button:hover {
+    background-color: #000;
+    transition: ease-in-out 0.4s;
+  }
+  
+  #footer {
+      background-color:#000;
+      position: relative;
+      height: 100px;
+      margin-top: -100px;
+      clear: both;
+      width: 100vw;
+  }
+
+ footer .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+ 
+  footer .socials li  {
+    border: 1px solid gray;
+    width: 44px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all 0.3s;
+    background-color: #fff;
+  }
+  .footer-bottom {
+    background: #fff;
+    color: #000;
+    height: 20px;
+    width: 100vw;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1em;
+    font-weight: 400;
+    padding-top: 20px;
+  }
+  @media (max-width: 768px) {
+    .form-section-info {
+      width: 100%;
+    }
+
+    .form-section-inputs {
+      margin-top: 48px;
+      width: 100%;
+    }
+  }
