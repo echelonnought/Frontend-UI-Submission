@@ -12,7 +12,7 @@
         body {
     margin: 0 0;
     padding: 0;
-    background: rgb(50, 50, 245);
+    background: #fff;
     /* background-image: url(image/coro.jpg); */
     background-repeat: repeat-x;
     animation: slideleft 20000s infinite linear;
@@ -113,7 +113,7 @@
   .form-section button {
     width: 473px;
     height: 48px;
-    background-color: #000;
+    background-color: #1359a0;
     border: none;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
@@ -121,6 +121,10 @@
     color: #f5f9fd;
     margin: 0 auto;
     cursor: pointer;
+  }
+  .form-section button:focus, .form-section button:hover {
+    background-color: #000;
+    transition: ease-in-out 0.4s;
   }
   
   #footer {
@@ -150,7 +154,8 @@
     display: inline-block;
     font-size: 1.3em;
     border-radius: 5px;
-    transition: all 0.3s
+    transition: all 0.3s;
+    background-color: #fff;
   }
   .footer-bottom {
     background: #fff;
